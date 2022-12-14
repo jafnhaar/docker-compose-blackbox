@@ -4,8 +4,6 @@ services:
     image: prom/blackbox-exporter:latest
     ports:
       - 9115:9115/tcp
-    expose:
-      - 9115/tcp
     restart: unless-stopped
     container_name: blackbox_exporter
     volumes:
