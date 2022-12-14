@@ -12,7 +12,7 @@ Next you have to make some changes to the provided config files:
 ```
 vim alertmanager/config.yml
 ```
-Change bot_token to your bot token (can be optained via @botfather bot in telegram) and enter desired chat_id.
+Change bot_token to your bot token (can be optained via @botfather bot in telegram) and enter desired chat_id (bot should be added to that chat).
 ### prometheus
 ```
 vim prometheus/prometheus.yml
